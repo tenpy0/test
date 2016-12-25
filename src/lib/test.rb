@@ -5,6 +5,9 @@ class Test
   def initialize(name)
     @name = name
   end
+
+  # 挨拶
+  # @return [String]
   def greeting
     "hello, #{@name}"
   end
