@@ -1,3 +1,5 @@
 #!/usr/bin/ruby
+$LOAD_PATH.unshift "../lib"
+require 'test'
 
-puts "Hello"
+puts Test.new("foo").greeting
